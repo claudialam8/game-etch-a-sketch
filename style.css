@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#container{
+    display:flex;
+    flex-wrap:wrap;
+    align-self: center;
+    width: 900px;
+    height: 900px;
+    border:1px solid black;
+}
+.grids{
+    box-sizing: border-box;   
+    border: 1px solid black;
+}
+
+button{
+    align-self: center;
+}
